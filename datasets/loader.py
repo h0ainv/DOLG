@@ -17,7 +17,7 @@ from torch.utils.data.sampler import RandomSampler
 
 
 # Default data directory (/path/pycls/pycls/datasets/data)
-_DATA_DIR = os.path.join(os.path.dirname(__file__), "data")
+_DATA_DIR = os.path.join(os.path.dirname(__file__), "/kaggle/input/landmark-retrieval-2021")
 
 
 def _construct_loader(dataset_name, split, batch_size, shuffle, drop_last):
