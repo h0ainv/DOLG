@@ -25,7 +25,7 @@ OPTIM:
   WEIGHT_DECAY: 0.0001
   WARMUP_EPOCHS: 5
 TRAIN:
-  DATASET: landmark
+  DATASET: landmark-retrieval-2021
   SPLIT: train_list.txt
   BATCH_SIZE: 64
   IM_SIZE: 224
