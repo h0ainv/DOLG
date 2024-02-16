@@ -26,13 +26,13 @@ OPTIM:
   WARMUP_EPOCHS: 5
 TRAIN:
   DATASET: landmark-retrieval-2021
-  SPLIT: /kaggle/input/train-val(v1)/train_list.txt
+  SPLIT: /kaggle/input/train-valv1/train_list.txt
   BATCH_SIZE: 64
   IM_SIZE: 224
   EVAL_PERIOD: 100
 TEST:
   DATASET: landmark-retrieval-2021
-  SPLIT: /kaggle/input/train-val(v1)/val_list.txt
+  SPLIT: /kaggle/input/train-valv1/val_list.txt
   BATCH_SIZE: 64
   IM_SIZE: 256
 NUM_GPUS: 1
