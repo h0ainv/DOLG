@@ -26,12 +26,12 @@ OPTIM:
   WARMUP_EPOCHS: 5
 TRAIN:
   DATASET: landmark-retrieval-2021
-  SPLIT: train.csv
+  SPLIT: train_list.txt
   BATCH_SIZE: 64
   IM_SIZE: 224
   EVAL_PERIOD: 100
 TEST:
-  DATASET: landmark
+  DATASET: landmark-retrieval-2021
   SPLIT: val_list.txt
   BATCH_SIZE: 64
   IM_SIZE: 256
