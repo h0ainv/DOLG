@@ -300,7 +300,7 @@ _C.TEST = CfgNode()
 
 # Dataset and split
 _C.TEST.DATASET = ""
-_C.TEST.SPLIT = "val"
+_C.TEST.SPLIT = "test"
 
 # Total mini-batch size
 _C.TEST.BATCH_SIZE = 200
