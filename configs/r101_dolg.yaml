@@ -19,11 +19,11 @@ OPTIM:
   LR_POLICY: cos
   STEPS: [0, 30, 60, 90]
   LR_MULT: 0.1
-  MAX_EPOCH: 10
+  MAX_EPOCH: 5
   MOMENTUM: 0.9
   NESTEROV: True
   WEIGHT_DECAY: 0.0001
-  WARMUP_EPOCHS: 5
+  WARMUP_EPOCHS: 2
 TRAIN:
   DATASET: landmark-retrieval-2021
   SPLIT: /kaggle/input/test-valv4/train_list.txt
