@@ -6,7 +6,7 @@ MODEL:
     IN_FEAT: 2048
     REDUCTION_DIM: 512
     MARGIN: 0.15
-    SCALE: 30
+    SCALE: 20
 RESNET:
   TRANS_FUN: bottleneck_transform
   NUM_GROUPS: 1
@@ -19,7 +19,7 @@ OPTIM:
   LR_POLICY: cos
   STEPS: [0, 30, 60, 90]
   LR_MULT: 0.1
-  MAX_EPOCH: 5
+  MAX_EPOCH: 3
   MOMENTUM: 0.9
   NESTEROV: True
   WEIGHT_DECAY: 0.0001
@@ -27,7 +27,7 @@ OPTIM:
 TRAIN:
   DATASET: landmark-retrieval-2021
   SPLIT: /kaggle/input/test-valv4/train_list.txt
-  BATCH_SIZE: 64
+  BATCH_SIZE: 32
   IM_SIZE: 224
   EVAL_PERIOD: 100
 TEST:
